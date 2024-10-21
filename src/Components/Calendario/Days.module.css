@@ -1,0 +1,29 @@
+.containerDays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* gap: 1px; */
+    
+}
+
+.days {
+    min-width: 35px;
+    /* margin: 1px; */
+    height: 35px;
+    background-color: #d9e8f5;
+    overflow: scroll;
+    border-radius: 3px;
+    border: solid 1px hsl(0, 0%, 50%);
+    margin: 1px;
+}
+
+.days:hover {
+    background-color: green;
+    opacity: 0.8;
+    transition: 300ms;
+}
+
+.days::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    display: none;  /* Ocultar scroll */
+}

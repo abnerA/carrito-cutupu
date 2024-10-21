@@ -1,0 +1,61 @@
+.calendary {
+    background-color: rgb(61, 59, 59);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 600ms;
+}
+
+.container {
+    background-color: rgb(145, 190, 212);
+    min-width: 270px;
+    padding: 1%;
+    height: 280px;
+    display: flex;
+    margin: 5px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.navigation {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title {
+    width: 130px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: default;
+    font-size: 14px;
+}
+
+.btnLast, .btnNext {
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 1;
+    transition: 600ms;
+}
+
+.btnLast img, .btnNext img {
+    height: 10px;
+    width: 10px;
+}
+
+.btnLast:hover, .btnNext:hover {
+    opacity: .8;
+    transition: 600ms;
+}

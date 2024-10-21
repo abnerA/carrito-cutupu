@@ -1,0 +1,110 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 400px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: solid 1px black;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+}
+
+input:focus {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    border: solid 2px rgb(100, 98, 236);
+}
+
+.btn {
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(100, 98, 236);
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(138, 138, 248);
+    transition: all 0.6s ease-out;
+}
+
+.error {
+    display: none;
+}
+
+.title {
+    font-size: 18px;
+}
+
+@keyframes go-back {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.messageError {
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    align-content: center;
+    animation: go-back 1.5s;
+    z-index: -1;
+}
+
+.messageError p {
+    color: rgb(204, 44, 44);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Esta clase de registro solo está en Login */
+.registro {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro .btn {
+    background-color: #afafaf;
+    width: 150px;
+    transition: 600ms;
+}
+
+.registro .btn:hover {
+    background-color: #aaa9a9;
+    color: black;
+    transition: 600ms;
+}
