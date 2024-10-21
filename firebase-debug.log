@@ -1,0 +1,21 @@
+[debug] [2024-10-21T18:32:31.936Z] ----------------------------------------------------------------------
+[debug] [2024-10-21T18:32:31.942Z] Command:       D:\Node\node.exe C:\Users\nerpa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-10-21T18:32:31.943Z] CLI Version:   13.22.1
+[debug] [2024-10-21T18:32:31.943Z] Platform:      win32
+[debug] [2024-10-21T18:32:31.944Z] Node Version:  v20.9.0
+[debug] [2024-10-21T18:32:31.944Z] Time:          Mon Oct 21 2024 14:32:31 GMT-0400 (hora de Venezuela)
+[debug] [2024-10-21T18:32:31.944Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-21T18:32:31.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-21T18:32:31.959Z] > authorizing via signed-in user (nertrabajo2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Páginas web\carrito-cutupu
+
